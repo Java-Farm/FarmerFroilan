@@ -28,11 +28,11 @@ public class FroilandaTest {
     }
 
     @Test
-    public void froilandaShouldMountHorse() {
+    public void froilandaShouldRideHorse() {
         Froilanda froilanda = new Froilanda();
         Horse horse = new Horse();
 
-        froilanda.mount(horse);
+        froilanda.ride(horse);
 
         assertTrue(horse.isMounted());
     }
