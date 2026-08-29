@@ -5,7 +5,7 @@ public class Froilanda extends Person implements Rider, Pilot {
     private Rideable currentRide;
 
     @Override
-    public void ride(Rideable rideable) {
+    public void mount(Rideable rideable) {
         currentRide = rideable;
         rideable.beMounted(this);
     }
