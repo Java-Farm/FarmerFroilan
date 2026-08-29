@@ -2,5 +2,7 @@ package com.zipcodewilmington.froilansfarm;
 
 public interface Rider {
 
-    void ride(Rideable rideable);
+    void mount(Rideable rideable);
+
+    void dismount(Rideable rideable);
 }

@@ -28,11 +28,11 @@ public class FarmerTest {
     }
 
     @Test
-    public void farmerShouldRideHorse() {
+    public void farmerShouldMountHorse() {
         Farmer farmer = new Farmer();
         Horse horse = new Horse();
 
-        farmer.ride(horse);
+        farmer.mount(horse);
 
         assertTrue(horse.isMounted());
     }
