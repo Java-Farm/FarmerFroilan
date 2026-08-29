@@ -4,12 +4,6 @@ public class Farmer extends Person implements Rider, Botanist {
 
     private Rideable currentRide;
 
-    @Override
-    public void ride(Rideable rideable) {
-        currentRide = rideable;
-        rideable.beMounted(this);
-    }
-
     public void mount(Rideable rideable) {
         currentRide = rideable;
         rideable.beMounted(this);
