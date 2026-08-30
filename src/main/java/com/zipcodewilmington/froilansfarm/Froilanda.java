@@ -9,10 +9,10 @@ public class Froilanda extends Person implements Rider, Pilot {
         currentRide = rideable;
         rideable.beMounted(this);
     }
-
     @Override
     public void fly(Aircraft aircraft) {
-        // Flying behavior will be connected when Aircraft is implemented.
+        aircraft.fly();
+            // Flying behavior will be connected when Aircraft is implemented.
     }
 
     public void dismount(Rideable rideable) {
