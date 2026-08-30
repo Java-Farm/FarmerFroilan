@@ -8,6 +8,9 @@ public abstract class Person implements Eater, NoiseMaker {
     private String name;
     private List<Edible> consumedFood = new ArrayList<>();
 
+    public List<Edible> getConsumedFood() {
+        return consumedFood;
+    }
     @Override
     public void eat(Edible food) {
         consumedFood.add(food);
